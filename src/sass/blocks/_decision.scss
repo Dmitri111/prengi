@@ -1,0 +1,24 @@
+.decision {
+    min-height: 890px;
+    background: url(../img/desecion.jpg) center (center / cover ) no-repeat;
+    padding: 80px 0 60px 0;
+    .item {
+        width: 695px;
+        height: 435px;
+        margin: 0 auto;
+    }
+    .owl-dots {
+        width: 843px;
+        height: 65px;
+        border: 1px solid #ffffff;
+        display: flex;
+        margin: 0 auto;
+        border-radius: 5px;
+        justify-content: space-between;
+        .owl-dot {
+            span {
+                content: 'asdas';
+            }
+        }
+    }
+}

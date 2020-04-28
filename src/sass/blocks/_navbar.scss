@@ -1,0 +1,22 @@
+.navbar {
+    display: flex;
+    height: 65px;
+    &__logo {
+        width: 140px;
+        height: 65px;
+    }
+    &__menu {
+        display: flex;
+        justify-content: space-between;
+        width: 540px;
+        list-style-type: none;
+        color: #ffffff;
+        font-family: Roboto;
+        font-size: 13px;
+        font-weight: 700;
+        line-height: 26px;
+        text-transform: uppercase;
+        padding-top: 25px;
+        margin-left: auto;
+    }
+}
