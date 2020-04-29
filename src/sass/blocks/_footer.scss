@@ -1,0 +1,40 @@
+.footer {
+    background-color:#0082a1 ;
+    padding: 50px 0 40px 0;
+    &__wrapper {
+        display: flex;
+        justify-content: center;
+    }
+    &__title {
+        list-style-type: none;
+        font-family: "Roboto - Bold";
+        font-size: 16px;
+        font-weight: 700;
+        color: #ffffff;
+        li {
+            font-family: Roboto;
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 19px;
+            img {
+                margin: 20px 0;
+            }
+        }
+        &:nth-child(1){
+            width: 377px;
+        }
+    }
+    hr {
+        border-bottom: none;
+        opacity: 0.6;
+    }
+    &__copyright {
+        color: #ffffff;
+        font-family: Roboto;
+        font-size: 13px;
+        font-weight: 300;
+        line-height: 17px;
+        text-align: center;
+        margin-top: 36px;
+    }
+}
